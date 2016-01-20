@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141B7FC01C4F30F60035B090 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141B7FBF1C4F30F60035B090 /* WebKit.framework */; };
 		1490066D1C4F07EB00D6D966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490066C1C4F07EB00D6D966 /* AppDelegate.m */; };
 		149006701C4F07EB00D6D966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490066F1C4F07EB00D6D966 /* main.m */; };
 		149006721C4F07EB00D6D966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149006711C4F07EB00D6D966 /* Assets.xcassets */; };
 		149006751C4F07EB00D6D966 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149006731C4F07EB00D6D966 /* MainMenu.xib */; };
+		149006861C4F0D4200D6D966 /* YSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149006841C4F0D4200D6D966 /* YSLoginViewController.m */; };
+		149006871C4F0D4200D6D966 /* YSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149006851C4F0D4200D6D966 /* YSLoginViewController.xib */; };
+		1490068C1C4F1E1300D6D966 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1490068B1C4F1E1300D6D966 /* Montserrat-Bold.otf */; };
+		14E688631C4F9AC8009D2912 /* YSOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E688621C4F9AC8009D2912 /* YSOAuth2.m */; };
+		14E688661C4FAA67009D2912 /* NSURL+YSOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E688651C4FAA67009D2912 /* NSURL+YSOAuth2.m */; };
+		14E688691C4FAB1E009D2912 /* NSString+YSOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E688681C4FAB1E009D2912 /* NSString+YSOAuth2.m */; };
+		14E6886F1C4FCDE3009D2912 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E6886E1C4FCDE3009D2912 /* EmojisList.plist */; };
+		14E688731C4FD2B0009D2912 /* YSEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E688721C4FD2B0009D2912 /* YSEmoji.m */; };
+		14E688771C4FE5F8009D2912 /* YSEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E688761C4FE5F8009D2912 /* YSEmojiView.m */; };
+		14E6887A1C4FE83C009D2912 /* YSEmojiCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E688791C4FE83C009D2912 /* YSEmojiCollectionViewItem.m */; };
+		96890DC479334BA353AAF325 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEBD6BD6D5C4661CC2AA0C5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141B7FBF1C4F30F60035B090 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		149006681C4F07EB00D6D966 /* Yo Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yo Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1490066B1C4F07EB00D6D966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1490066C1C4F07EB00D6D966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +34,28 @@
 		149006711C4F07EB00D6D966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149006741C4F07EB00D6D966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		149006761C4F07EB00D6D966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149006831C4F0D4200D6D966 /* YSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLoginViewController.h; sourceTree = "<group>"; };
+		149006841C4F0D4200D6D966 /* YSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLoginViewController.m; sourceTree = "<group>"; };
+		149006851C4F0D4200D6D966 /* YSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSLoginViewController.xib; sourceTree = "<group>"; };
+		149006881C4F1A6B00D6D966 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		149006891C4F1A7E00D6D966 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1490068B1C4F1E1300D6D966 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		14E688611C4F9A2D009D2912 /* YSOAuth2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSOAuth2.h; sourceTree = "<group>"; };
+		14E688621C4F9AC8009D2912 /* YSOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSOAuth2.m; sourceTree = "<group>"; };
+		14E688641C4FAA67009D2912 /* NSURL+YSOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+YSOAuth2.h"; sourceTree = "<group>"; };
+		14E688651C4FAA67009D2912 /* NSURL+YSOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+YSOAuth2.m"; sourceTree = "<group>"; };
+		14E688671C4FAB1E009D2912 /* NSString+YSOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YSOAuth2.h"; sourceTree = "<group>"; };
+		14E688681C4FAB1E009D2912 /* NSString+YSOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YSOAuth2.m"; sourceTree = "<group>"; };
+		14E6886E1C4FCDE3009D2912 /* EmojisList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojisList.plist; sourceTree = "<group>"; };
+		14E688711C4FD2B0009D2912 /* YSEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSEmoji.h; sourceTree = "<group>"; };
+		14E688721C4FD2B0009D2912 /* YSEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSEmoji.m; sourceTree = "<group>"; };
+		14E688751C4FE5F8009D2912 /* YSEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSEmojiView.h; sourceTree = "<group>"; };
+		14E688761C4FE5F8009D2912 /* YSEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSEmojiView.m; sourceTree = "<group>"; };
+		14E688781C4FE83C009D2912 /* YSEmojiCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSEmojiCollectionViewItem.h; sourceTree = "<group>"; };
+		14E688791C4FE83C009D2912 /* YSEmojiCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSEmojiCollectionViewItem.m; sourceTree = "<group>"; };
+		1D13902F83ACD23ECEF1D4E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6AF606C4B41AAAB371EA543E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CAEBD6BD6D5C4661CC2AA0C5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141B7FC01C4F30F60035B090 /* WebKit.framework in Frameworks */,
+				96890DC479334BA353AAF325 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +76,8 @@
 			children = (
 				1490066A1C4F07EB00D6D966 /* Yo Status */,
 				149006691C4F07EB00D6D966 /* Products */,
+				509E48369C3231FBB887707D /* Pods */,
+				E16E37A2DBAFCA2E3EEE2B59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +92,15 @@
 		1490066A1C4F07EB00D6D966 /* Yo Status */ = {
 			isa = PBXGroup;
 			children = (
+				14E6885D1C4F3ADA009D2912 /* OAuth2 */,
+				14E688701C4FD29F009D2912 /* Model */,
+				149006811C4F0D4200D6D966 /* Controllers */,
+				14E688741C4FE5E2009D2912 /* Views */,
 				1490066B1C4F07EB00D6D966 /* AppDelegate.h */,
 				1490066C1C4F07EB00D6D966 /* AppDelegate.m */,
 				149006711C4F07EB00D6D966 /* Assets.xcassets */,
+				1490068A1C4F1E1300D6D966 /* Fonts */,
+				14E6886D1C4FCDD8009D2912 /* Emoji */,
 				149006731C4F07EB00D6D966 /* MainMenu.xib */,
 				149006761C4F07EB00D6D966 /* Info.plist */,
 				1490066E1C4F07EB00D6D966 /* Supporting Files */,
@@ -67,8 +112,95 @@
 			isa = PBXGroup;
 			children = (
 				1490066F1C4F07EB00D6D966 /* main.m */,
+				149006881C4F1A6B00D6D966 /* Constants.h */,
+				149006891C4F1A7E00D6D966 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		149006811C4F0D4200D6D966 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				149006821C4F0D4200D6D966 /* Login */,
+				14E688781C4FE83C009D2912 /* YSEmojiCollectionViewItem.h */,
+				14E688791C4FE83C009D2912 /* YSEmojiCollectionViewItem.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		149006821C4F0D4200D6D966 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				149006831C4F0D4200D6D966 /* YSLoginViewController.h */,
+				149006841C4F0D4200D6D966 /* YSLoginViewController.m */,
+				149006851C4F0D4200D6D966 /* YSLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1490068A1C4F1E1300D6D966 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1490068B1C4F1E1300D6D966 /* Montserrat-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		14E6885D1C4F3ADA009D2912 /* OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				14E688671C4FAB1E009D2912 /* NSString+YSOAuth2.h */,
+				14E688681C4FAB1E009D2912 /* NSString+YSOAuth2.m */,
+				14E688641C4FAA67009D2912 /* NSURL+YSOAuth2.h */,
+				14E688651C4FAA67009D2912 /* NSURL+YSOAuth2.m */,
+				14E688611C4F9A2D009D2912 /* YSOAuth2.h */,
+				14E688621C4F9AC8009D2912 /* YSOAuth2.m */,
+			);
+			path = OAuth2;
+			sourceTree = "<group>";
+		};
+		14E6886D1C4FCDD8009D2912 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				14E6886E1C4FCDE3009D2912 /* EmojisList.plist */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		14E688701C4FD29F009D2912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14E688711C4FD2B0009D2912 /* YSEmoji.h */,
+				14E688721C4FD2B0009D2912 /* YSEmoji.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14E688741C4FE5E2009D2912 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14E688751C4FE5F8009D2912 /* YSEmojiView.h */,
+				14E688761C4FE5F8009D2912 /* YSEmojiView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		509E48369C3231FBB887707D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D13902F83ACD23ECEF1D4E5 /* Pods.debug.xcconfig */,
+				6AF606C4B41AAAB371EA543E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E16E37A2DBAFCA2E3EEE2B59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				141B7FBF1C4F30F60035B090 /* WebKit.framework */,
+				CAEBD6BD6D5C4661CC2AA0C5 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 149006791C4F07EB00D6D966 /* Build configuration list for PBXNativeTarget "Yo Status" */;
 			buildPhases = (
+				9D7ADAB00B83F2A94268F622 /* Check Pods Manifest.lock */,
 				149006641C4F07EB00D6D966 /* Sources */,
 				149006651C4F07EB00D6D966 /* Frameworks */,
 				149006661C4F07EB00D6D966 /* Resources */,
+				41AE0F061EBD3A79F2149F02 /* Embed Pods Frameworks */,
+				B7022844D75C95F03CD2C964 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,8 +232,9 @@
 		149006601C4F07EB00D6D966 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YS;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = backendless.com;
+				ORGANIZATIONNAME = rooftoptek.com;
 				TargetAttributes = {
 					149006671C4F07EB00D6D966 = {
 						CreatedOnToolsVersion = 7.2;
@@ -128,20 +264,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E6886F1C4FCDE3009D2912 /* EmojisList.plist in Resources */,
+				149006871C4F0D4200D6D966 /* YSLoginViewController.xib in Resources */,
 				149006721C4F07EB00D6D966 /* Assets.xcassets in Resources */,
 				149006751C4F07EB00D6D966 /* MainMenu.xib in Resources */,
+				1490068C1C4F1E1300D6D966 /* Montserrat-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41AE0F061EBD3A79F2149F02 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7ADAB00B83F2A94268F622 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7022844D75C95F03CD2C964 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		149006641C4F07EB00D6D966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E688691C4FAB1E009D2912 /* NSString+YSOAuth2.m in Sources */,
 				149006701C4F07EB00D6D966 /* main.m in Sources */,
+				14E688661C4FAA67009D2912 /* NSURL+YSOAuth2.m in Sources */,
+				14E688771C4FE5F8009D2912 /* YSEmojiView.m in Sources */,
+				14E6887A1C4FE83C009D2912 /* YSEmojiCollectionViewItem.m in Sources */,
+				14E688731C4FD2B0009D2912 /* YSEmoji.m in Sources */,
 				1490066D1C4F07EB00D6D966 /* AppDelegate.m in Sources */,
+				14E688631C4F9AC8009D2912 /* YSOAuth2.m in Sources */,
+				149006861C4F0D4200D6D966 /* YSLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,24 +434,32 @@
 		};
 		1490067A1C4F07EB00D6D966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D13902F83ACD23ECEF1D4E5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yo Status/PrefixHeader.pch";
 				INFOPLIST_FILE = "Yo Status/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.backendless.Yo-Status";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rooftoptek.Yo-Status";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		1490067B1C4F07EB00D6D966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF606C4B41AAAB371EA543E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yo Status/PrefixHeader.pch";
 				INFOPLIST_FILE = "Yo Status/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.backendless.Yo-Status";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rooftoptek.Yo-Status";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -281,6 +483,7 @@
 				1490067B1C4F07EB00D6D966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  main.m
+//  YSEmojiView.h
 //  Yo Status
 //
 //  Created by Emmanuel Merali on 20/01/2016.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface YSEmojiView : NSView
+
+@end
